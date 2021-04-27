@@ -1,0 +1,20 @@
+.imagen {
+  display: block;
+  padding-top: 75px;
+  margin: auto;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .imagen {
+    padding-top: 90px;
+  }
+  .imagen img {
+    width: 100px;
+    height: 130px;
+  }
+}

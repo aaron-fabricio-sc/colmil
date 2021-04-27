@@ -1,0 +1,390 @@
+/*font-family: 'Indie Flower', cursive;
+font-family: 'Bitter', serif;
+font-family: 'Prociono', serif;
+font-family: 'Noto Sans SC', sans-serif;
+font-family: 'Caveat', cursive;
+font-family: 'Alegreya', serif;
+font-family: 'Neuton', serif;*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body{
+    background:url(../textura/tweed.png);
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+hr
+{
+    background: rgb(7, 60, 85);
+    height: 2.5px;
+}
+.navbar-brand .logo
+{
+    width:60px;
+     height:80px;
+}
+.dropdown-menu{
+    background: rgb(7, 60, 85);
+}
+
+
+
+nav .navbar-nav li{
+    transition:all 1s ease;
+   
+}
+nav .navbar-nav li a{
+     font-size: 18px;
+
+    letter-spacing: 1px;
+
+
+}
+
+
+
+nav .navbar-nav li a:hover{
+    background: rgb(6, 31, 43);
+    border-radius: 10px;
+   
+   
+}
+
+
+/* fotter */
+footer{
+    background: rgb(7, 60, 85);
+    color: aliceblue;
+}
+
+
+
+
+.fo_titulo
+{
+    font-size: 17px;
+}
+.fo_p
+{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+.bd-example .carousel-inner .carousel-item .carousel-caption h3{
+  color:floralwhite;
+    
+}
+
+.bd-example .carousel-inner .carousel-item .carousel-caption{
+margin-bottom: 250px;
+
+
+}
+.bd-example{
+    margin-bottom: 25px;
+}
+nav{
+
+transition:all 1s ease;
+}
+.bg-dark{
+    transition:all 1s ease;
+}
+
+.listado{
+    display: none;
+    
+}
+nav ul li:hover .listado{
+    margin-top: 0;
+    display: block;
+    
+    
+}
+/*Carrucel*/
+.imgcarr{
+    height: 100vh;
+}
+
+/* letras*/
+.intro{
+    width: 75%;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.534);
+  padding: 8px;
+  margin-bottom: 10px;
+  
+}
+.letras{
+    letter-spacing: 2px;
+    text-shadow:0.3px 0.3px white;
+}
+
+.letras:hover{
+    text-decoration: none;
+    
+}
+.letrast
+{
+    color: rgb(255, 0, 0);
+    font-size: 22px;
+}
+.typing{
+    font-size: 22px;
+    color: teal;
+   
+}
+.typing::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 3.5%;
+    border-right: 2px solid white;
+    animation: blink 0.6s infinite ease;
+
+}
+@keyframes blink{
+0%{
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+}
+}
+
+
+.blue{
+    background: rgb(7, 60, 85); 
+ 
+  
+ }
+//mapa
+.direccion
+{
+    width: 100%;
+
+}
+.direccion h3
+{
+    text-align: center;
+    color:white; 
+    font-size: 35px;
+    font-weight: bold
+
+}
+.direccion p{
+    text-align: center;
+    color:white; 
+    font-size: 23px;
+}
+ .mapa
+ {
+ 
+     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  30px 0px;
+    box-sizing: border-box;
+
+ }
+ .mapa iframe
+ {
+    width:90%;
+     height:600px;
+ }
+ 
+
+// swiper
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 390px;
+  }
+
+  .swiper-slide .imgbox {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+
+  .imgbox a img
+  {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease;
+  }
+  .imgbox:hover a img
+  {
+    transform: translateX(10%);
+    transform: translateY(5%);
+    width: 90%;
+    height: 90%;
+  }
+  
+  .swiper-slide .descripcion
+  {
+    background: rgba(255, 255, 255, 0.692);
+    text-align: center;
+    padding: 5px;
+    transition: 0.5s ease;
+    
+  }
+ 
+  .swiper-slide .descripcion h3
+  {
+     font-size: 21px;
+     font-family: 'Prociono', serif;
+     
+  }
+
+//mapa
+
+
+
+
+@media screen and (max-width:800px){
+nav{
+  
+    background: rgb(7, 60, 85);
+    opacity: .9;
+  
+}
+
+.imgcarr{
+    height: 60vh;
+}
+.intro{
+
+
+    
+  padding: 3px;
+ 
+  
+}
+.letrast{
+    letter-spacing: 0px;
+     font-size: 14px;
+}
+
+.typing{
+    font-size: 14px;
+   
+}
+.fo_titulo
+{
+    font-size: 16px;
+}
+.fo_p
+{
+    font-size: 12px;
+}
+.navbar-brand .logo
+{
+    width:45px;
+    height:65px;
+}
+nav .navbar-nav li a{
+    font-size: 13px;
+  
+   letter-spacing: 0px;
+
+
+}
+nav .navbar-nav li
+{
+    margin-top: 3px;
+}
+.navbar-toggler
+{
+    font-size: 15px;
+}
+
+
+// swiper
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 260px;
+  }
+
+  .swiper-slide .imgbox {
+
+    height: 200px;
+ 
+  }
+  
+
+  .imgbox:hover a img
+  {
+    transform: translateX(7%);
+    transform: translateY(3%);
+  }
+  
+  .swiper-slide .descripcion
+  {
+  
+    padding: 1px;
+ 
+    
+  }
+ 
+  .swiper-slide .descripcion h3
+  {
+     font-size: 17px;
+     
+  }
+
+.direccion h3
+{
+
+
+    font-size: 25px;
+
+
+}
+.direccion p{
+
+    font-size: 17px;
+}
+.mapa iframe
+{
+ 
+    height:350px;
+}
+}
+
+
+ 
+
+ 
+
+ 
+
+
+
+
+ 
